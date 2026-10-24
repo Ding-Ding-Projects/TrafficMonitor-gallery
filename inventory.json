@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "kind": "native-window-evidence",
+  "release": "1.0.48",
+  "sourceCommit": "ddcf441f4c3cab2a5e3b62e9ff6aff1babf3bdfa",
+  "releaseUrl": "https://github.com/Ding-Ding-Projects/TrafficMonitor/releases/tag/v1.0.48-run40021045002-1",
+  "productionRunUrl": "https://github.com/Ding-Ding-Projects/TrafficMonitor/actions/runs/40021045002",
+  "productionStepCompletedUtc": "2026-10-23T20:45:10Z",
+  "executableSha256": "3cde62040b0d829e08ebef15d8a5b1a5605a0f3446e2745ce8d992688793cd9b",
+  "packageSha256": "d4d07824a668275e4d37fc319eb4f900245cdf3969d6a08ac6cc54acacc65e91",
+  "evidenceScope": "Released before-state; not completed visual redesign",
+  "limits": ["English, light appearance and actual 96 DPI only.", "Keyboard and UI automation, bilingual and dark appearance, and display-scale acceptance are not established by these images.", "Private process, machine-path and restoration records are not included."],
+  "excludedCategory": "A workspace image containing host or network identity and incomplete chart rendering was excluded. No redaction was performed.",
+  "images": [
+    {"id":"setup-language","path":"images/setup-language.png","sha256":"3ad9d4355356a6fccc73dd8ad2d54bc4ef402e50cd9c47e0179fc38937e143fa","width":776,"height":679,"capturedUtc":"2026-10-24T01:28:07.446861+00:00","state":"First-run language and message-style step; actual scrollable preferences region"},
+    {"id":"setup-startup","path":"images/setup-startup.png","sha256":"cfdd6457a223412fe20c8200f4f4ccdf7bb55b59006e4fc891bf6f8fc0e00169","width":776,"height":679,"capturedUtc":"2026-10-24T01:28:20.862585+00:00","state":"First-run startup/taskbar review with both choices kept unchanged"},
+    {"id":"settings-interface","path":"images/settings-interface.png","sha256":"4b721e98b7560ebd8079cc51c7b1b98ed8449f89428c296361004adf454734af","width":1296,"height":879,"capturedUtc":"2026-10-24T01:29:21.627687+00:00","state":"Interface navigation destination with startup defaults, English/system-light"},
+    {"id":"settings-notifications","path":"images/settings-notifications.png","sha256":"693e0648a8ceb4dedc8a336fc8f64a3f996ba535b1384c0a96abae3eb802d7ba","width":1296,"height":879,"capturedUtc":"2026-10-24T01:29:25.755687+00:00","state":"Notifications navigation destination; actual disabled hardware capabilities"},
+    {"id":"regex-test-valid","path":"images/regex-test-valid.png","sha256":"6439ece46a79671909c45484ad647656b4ff51ec903076750c927f2b433850af","width":1296,"height":879,"capturedUtc":"2026-10-24T01:31:10.385070+00:00","state":"Regular-expression local test: two matches, offsets 0 and 12, lengths 10"},
+    {"id":"regex-replace-valid","path":"images/regex-replace-valid.png","sha256":"77092000e751e4c38070313c2d23a8c9153b4054eaf112b5900d819ca87a6e57","width":1296,"height":879,"capturedUtc":"2026-10-24T01:31:06.301571+00:00","state":"Local literal replacement preview: shipment, shipment, shipped"}
+  ]
+}

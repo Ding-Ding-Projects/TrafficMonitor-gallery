@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Six reviewed screenshots of the released TrafficMonitor 1.0.48 interface, documented as before-state evidence.">
+  <title>TrafficMonitor 1.0.48 interface evidence</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#gallery">Skip to the evidence gallery</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="TrafficMonitor evidence home">TrafficMonitor <span>Evidence</span></a>
+    <nav aria-label="Main navigation"><a href="#gallery">Browse images</a><a href="#about">About this set</a><a href="https://github.com/Ding-Ding-Projects/TrafficMonitor">Source project</a></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Released interface · version 1.0.48</p>
+      <h1 id="page-title">A closer look at the released interface</h1>
+      <p>Browse six reviewed images from the released build. They record the interface before the ongoing visual refinement and do not represent completed redesign or full acceptance.</p>
+      <div class="source-links"><a class="button" href="https://github.com/Ding-Ding-Projects/TrafficMonitor/releases/tag/v1.0.48-run40021045002-1">View release 1.0.48</a><a class="text-link" href="https://github.com/Ding-Ding-Projects/TrafficMonitor/commit/ddcf441f4c3cab2a5e3b62e9ff6aff1babf3bdfa">View source revision</a></div>
+    </section>
+    <section id="gallery" class="gallery-section" aria-labelledby="gallery-title">
+      <div class="section-heading"><div><p class="eyebrow">Evidence gallery</p><h2 id="gallery-title">Choose a workflow</h2></div><label class="filter-label">Show
+        <select id="group-filter" aria-controls="image-grid"><option value="all">All images</option><option value="setup">Setup</option><option value="settings">Settings</option><option value="regex">Regular expressions</option></select>
+      </label></div>
+      <p id="result-count" class="result-count" aria-live="polite">Six images</p>
+      <div id="image-grid" class="image-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>No images are in this group.</p>
+    </section>
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <p class="eyebrow">How to read this evidence</p><h2 id="about-title">A documented baseline</h2>
+      <p>Each image is an unchanged capture of a specific task state in release 1.0.48. The set covers English, light appearance, and 96 DPI. Keyboard and UI automation, bilingual and dark appearance, and display-scale acceptance are not established by these images.</p>
+      <p>One workspace image was excluded because it contained host or network identity and incomplete chart rendering. No image was altered to remove information. Private process, machine-path, and restoration records are not part of this publication.</p>
+      <p>Image descriptions, dimensions, capture times, hashes, and release metadata are available in the <a href="inventory.json">public inventory</a>. See the <a href="https://github.com/Ding-Ding-Projects/TrafficMonitor-gallery/blob/main/docs/features/release-evidence/README.md">evidence guide</a> for the collection method and scope.</p>
+    </section>
+  </main>
+  <footer><p>Evidence for <a href="https://github.com/Ding-Ding-Projects/TrafficMonitor">Ding-Ding-Projects/TrafficMonitor</a>. Images remain unchanged from the reviewed source files.</p></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><h2 id="dialog-title"></h2><button id="close-dialog" type="button" aria-label="Close image view">Close</button></div><img id="dialog-image" alt=""><p id="dialog-description"></p></dialog>
+</body>
+</html>
