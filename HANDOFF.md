@@ -12,11 +12,21 @@ and image hashes. The gallery labels every image as released before-state eviden
 
 ## Verification
 
-Pending until the public default-branch revision, GitHub Pages deployment, live home page, and
-all six deployed image URLs and bytes have been read back independently.
+Verified source revision: `dca5ecc4a1edd61b3331fa51f85ca481ee6970d2`, confirmed by
+`git ls-remote origin refs/heads/main`. Repository visibility is public and its default branch
+is `main`. GitHub Actions run `40052457302` succeeded for that exact revision and deployed the
+gallery. The live home and inventory returned HTTP 200, and the public inventory lists six images.
+Every deployed image URL returned HTTP 200; all six byte counts and SHA-256 digests match both the
+reviewed inventory and the local source files.
+
+Run `40052410249` failed before deployment because its job used the `cmd` shell on `ubuntu-latest`.
+The correction changed the build job to `windows-latest`, matching the required `build.bat`
+entrypoint. The corrected run completed successfully.
 
 ## Remaining work
 
-Verify publication and add the exact deployed URL to the source project's README. The six images
-cover English, light appearance, and 96 DPI only; they do not establish the broader visual,
-keyboard, bilingual, dark appearance, or display-scale acceptance.
+The source project README backlink is awaiting parent integration and readback. The gallery
+documents before-state evidence only; visual refinement and broader acceptance remain open in the
+source project. Browser interaction and accessibility-tree checks were not run, so gallery filter
+and dialog behavior are not runtime-verified. The six images cover English, light appearance, and
+96 DPI only; they do not establish keyboard, bilingual, dark appearance, or display-scale acceptance.
